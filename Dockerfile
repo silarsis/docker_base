@@ -1,4 +1,4 @@
-FROM ubuntu:saucy
+FROM ubuntu:trusty
 MAINTAINER Kevin Littlejohn <kevin@littlejohn.id.au>
 ENV DEBIAN_FRONTEND noninteractive
 ADD detect-http-proxy /etc/apt/detect-http-proxy
